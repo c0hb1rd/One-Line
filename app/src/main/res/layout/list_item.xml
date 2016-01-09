@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#c35799f5"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="world"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:id="@+id/showWorld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textColor="#8ecaa315"
+        android:gravity="center"
+        android:text="|"
+        android:textSize="18sp"
+        android:layout_width="5sp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="#c38fb9f2"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="mean"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:id="@+id/showMean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#6c6cadc9"
+    android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="190dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="10dp"
+        android:text="详细"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="#855799f5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:textStyle="italic"
+            android:maxLines="1"
+            android:text="INDEX："
+            android:textSize="18sp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:paddingBottom="10dp"
+            android:text="English："
+            android:textSize="18sp"
+            android:gravity="left"
+            android:layout_width="180dp"
+            android:id="@+id/showIndex"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#6c8fb9f2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:textStyle="italic"
+        android:maxLines="1"
+        android:text="批注："
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:paddingBottom="10dp"
+        android:text="中文："
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_width="180dp"
+        android:id="@+id/showNote"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

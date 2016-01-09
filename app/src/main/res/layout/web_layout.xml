@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_relative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_above="@+id/rg"
+        android:id="@+id/l1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:background="#50e8e4d8"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <RadioButton
+            android:id="@+id/b1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:button="@null"
+            android:drawableBottom="@drawable/google_search_icon2"
+            android:background="@drawable/radio_press" />
+
+        <RadioButton
+            android:id="@+id/b2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:button="@null"
+            android:drawableBottom="@android:drawable/ic_menu_zoom"
+            android:background="@drawable/radio_press" />
+
+        <RadioButton
+            android:id="@+id/b3"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:button="@null"
+            android:drawableBottom="@android:drawable/ic_menu_search"
+            android:background="@drawable/radio_press" />
+
+        <RadioButton
+            android:id="@+id/b4"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:button="@null"
+            android:drawableBottom="@android:drawable/ic_menu_edit"
+            android:background="@drawable/radio_press" />
+
+
+
+    </RadioGroup>
+
+</RelativeLayout>
